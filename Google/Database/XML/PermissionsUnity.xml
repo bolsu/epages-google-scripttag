@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <Role reference="1" Path="/Classes/System/Roles/Everyone">
+    <RoleAction Class="Shop" Action="UnityViewGoogleScript" delete="1" />
+  </Role>
+  <Role reference="1" Path="/Classes/Shop/Roles/Merchant">
+    <RoleAction Class="Shop" Action="UnityMBO-ViewGoogleSearch"  delete="1" />
+    <RoleAction Class="Shop" Action="JSONUnitySaveGoogleSearch"  delete="1" />
+  </Role>
+</epages>

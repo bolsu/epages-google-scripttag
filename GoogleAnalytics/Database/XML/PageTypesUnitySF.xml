@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <!-- page types and templates -->
+  <Cartridge reference="1" Package="DE_EPAGES::GoogleAnalytics">
+    <Class reference="1" Path="/Classes/Shop">
+      <PageType Alias="UnitySF-GoogleScript" reference="1">
+        <Menu Template="GoogleScriptTags" reference="1">
+          <Menu Template="Tag-GoogleAnalytics" Position="10" delete="1" />
+        </Menu>
+        <Template Name="Tag-GoogleAnalytics" FileName="UnitySF/UnitySF-GoogleScript.Tag-GoogleAnalytics.js" delete="1" />
+      </PageType>
+    </Class>
+  </Cartridge>
+</epages>

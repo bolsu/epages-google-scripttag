@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<epages Cartridge="DE_EPAGES::Google">
+
+  <Hook Name="API_RegisterInitialScriptTags" reference="1" >
+    <HookFunction FunctionName="DE_EPAGES::Google::Hooks::Shop::OnRegisterInitialScriptTags" OrderNo="30" delete="1" />
+  </Hook>
+
+</epages>

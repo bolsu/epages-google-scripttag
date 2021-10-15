@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <!-- page types and templates -->
+  <Cartridge reference="1" Package="DE_EPAGES::Google">
+    <Class reference="1" Path="/Classes/Shop">
+      <PageType Alias="UnitySF-GoogleScript" delete="1">
+        <Menu Template="GoogleScriptTags" Position="0" />
+        <Template Name="Page" FileName="UnitySF/UnitySF-GoogleScript.js" />
+        <ViewAction URLAction="UnityViewGoogleScript" />
+      </PageType>
+    </Class>
+  </Cartridge>
+</epages>

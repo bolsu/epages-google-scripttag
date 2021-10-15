@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<epages>
+  <Class reference="1" Path="/Classes/Shop">
+    <Object Alias="Actions" reference="1">
+      <ViewAction Alias="UnityMBO-ViewGoogleSearch"  Package="DE_EPAGES::Google::UI::Shop" FunctionName="UnityMBOViewGoogleSearch" delete="1" />
+      <ViewAction Alias="UnitySF-ViewGoogleHTML"  Package="DE_EPAGES::Google::UI::Shop" FunctionName="UnitySFViewGoogleHTML" delete="1" />
+      <ChangeAction Alias="JSONUnitySaveGoogleSearch"  Package="DE_EPAGES::Google::UI::Shop"  FunctionName="UnitySave" delete="1" />
+
+      <ViewAction Alias="UnityViewGoogleScript" Package="DE_EPAGES::Presentation::UI::Object" FunctionName="ViewScriptTagContent" delete="1" />
+    </Object>
+  </Class>
+</epages>
