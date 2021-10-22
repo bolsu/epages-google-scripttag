@@ -5,6 +5,7 @@
     <Class reference="1" Path="/Classes/Shop">
       <PageType Alias="UnitySF-GoogleScript" reference="1">
         <Menu Template="GoogleScriptTags" reference="1">
+          <!-- Gotta have delete tags -->
           <Menu Template="Tag-GoogleAnalytics" Position="10" delete="1" />
         </Menu>
         <Template Name="Tag-GoogleAnalytics" FileName="UnitySF/UnitySF-GoogleScript.Tag-GoogleAnalytics.js" delete="1" />
