@@ -1,6 +1,6 @@
 (function (doc) {
   /*
-    Set up base or common tags
+    Set up base or common tags used by other cartridges
   */
   
   #MENU("GoogleScriptTags")
