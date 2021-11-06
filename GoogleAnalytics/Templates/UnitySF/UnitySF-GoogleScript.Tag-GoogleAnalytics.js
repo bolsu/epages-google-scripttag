@@ -7,3 +7,5 @@ if ( typeof gtag !== undefined ) {
   console.log('GoogleScript Tag: gtag undefined, defining it!');
   function gtag() { dataLayer.push(arguments); }
 }
+
+
